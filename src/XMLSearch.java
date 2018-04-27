@@ -82,7 +82,7 @@ public class XMLSearch extends Application {
                 String filePath = pathName.getText();
                 File xmlFile = new File(filePath);
                 //reading from xml file
-                FileReader fileReader = new FileReader(xmlFile);
+                Reader fileReader = new FileReader(xmlFile); //using polymorphism here
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String line = bufferedReader.readLine();
                 while(line != null){
