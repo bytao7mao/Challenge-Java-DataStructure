@@ -65,6 +65,9 @@ public class XMLSearch extends Application {
         //button.setOnClickListener(v -> {
         //
         //        });
+         // Reading XML as String using jCabi library
+//         XML xml = new XMLDocument(new File("info.xml"));
+//         String xmlString = xml.toString();        
         button.setOnAction(event -> {
 
             try {
